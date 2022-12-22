@@ -1,0 +1,19 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--loading-bg);
+    width: 100%;
+}
+
+.message {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}

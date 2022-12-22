@@ -1,0 +1,16 @@
+.button {
+    background-color: var(--accent);
+    border: none;
+    color: var(--white);
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    transition: box-shadow 0.15s ease-in-out 0s;
+}
+
+.button:active {
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
+}

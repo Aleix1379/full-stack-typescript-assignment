@@ -1,0 +1,21 @@
+.post {
+    width: 100%;
+}
+
+.details {
+    display: flex;
+    margin-bottom: 15px;
+    /*margin-top: 15px;*/
+}
+
+.author {
+    /*margin-left: auto;*/
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .post {
+        width: 500px;
+    }
+}

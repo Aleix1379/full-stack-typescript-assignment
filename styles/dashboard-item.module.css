@@ -1,0 +1,17 @@
+.item {
+}
+
+.label {
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.months {
+    list-style: none;
+}

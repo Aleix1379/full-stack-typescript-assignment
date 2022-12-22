@@ -1,0 +1,15 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    grid-template-rows: 1fr;
+    justify-items: center;
+    background: var(--main-bg);
+    overflow-y: scroll;
+    height: 100vh;
+    color: var(--text);
+    padding: 25px 12px;
+}
+
+.item {
+    width: 300px;
+}

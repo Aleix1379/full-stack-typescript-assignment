@@ -1,0 +1,16 @@
+.container {
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    gap: 10px;
+}
+
+.submit {
+    margin-top: 32px
+}

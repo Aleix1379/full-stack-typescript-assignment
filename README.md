@@ -10,6 +10,14 @@ npm run dev
 yarn dev
 ```
 
+Create 3 env variables
+
+```bash
+URL_REGISTER=https://api.supermetrics.com/assignment/register
+URL_POSTS=https://api.supermetrics.com/assignment/posts
+CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.

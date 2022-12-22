@@ -1,0 +1,15 @@
+.pagination {
+    color: var(--text);
+}
+
+.button {
+    padding: 4px 6px;
+    border: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.button[disabled] {
+    cursor: not-allowed;
+}

@@ -1,0 +1,20 @@
+:root {
+    --accent: #00897b;
+    --white: #fafafa;
+}
+
+[data-theme="dark"] {
+    --text: #fafafa;
+    --main-bg: #121212;
+    --card-bg: #333333;
+    --header-bg: #333;
+    --loading-bg: rgba(18, 18, 18, 0.9);
+}
+
+[data-theme="light"] {
+    --text: #444;
+    --main-bg: #fafafa;
+    --card-bg: #e8e8e8;
+    --header-bg: #fafafa;
+    --loading-bg: rgba(255, 255, 255, 0.9);
+}
