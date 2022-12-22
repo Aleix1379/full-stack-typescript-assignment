@@ -10,7 +10,7 @@ npm run dev
 yarn dev
 ```
 
-Create 3 env variables
+Create 3 env variables in .env.local file
 
 ```bash
 URL_REGISTER=https://api.supermetrics.com/assignment/register
